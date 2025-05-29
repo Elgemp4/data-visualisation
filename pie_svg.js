@@ -12,9 +12,9 @@ const main = async () => {
     let previousAngle = 0;
     let index = 0;
 
-    const centerX = 250;
-    const centerY = 250;
-    const radius = 250;    
+    const centerX = pie_chart.viewBox.baseVal.width / 2;
+    const centerY = pie_chart.viewBox.baseVal.height / 2;
+    const radius = pie_chart.viewBox.baseVal.width / 2;    
 
     for(const element of data){
         const angle = previousAngle + element.value / 100.0 * 360;
