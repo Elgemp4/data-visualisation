@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Blé",
+        "value": 50
+    },
+    {
+        "name": "Maïs",
+        "value": 25
+    },
+    {
+        "name": "Avoine",
+        "value": 18.5
+    },
+    {
+        "name": "Orge",
+        "value": 6.5
+    }
+]
